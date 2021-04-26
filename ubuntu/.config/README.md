@@ -1,0 +1,1 @@
+[flake8](https://flake8.pycqa.org/en/2.5.5/config.html)

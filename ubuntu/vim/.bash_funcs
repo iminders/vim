@@ -1,0 +1,14 @@
+#  .bashrc 中添加
+# if [ -f ~/.bash_funcs ]; then
+#     . ~/.bash_funcs
+# fi
+
+# git 
+function gitap()
+{
+    echo "git add -A && git commit -m '$2'"
+    git add -A
+    git commit -m "$2"
+    echo "pushing to origin $1"
+    git push origin "$1"
+}
